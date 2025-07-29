@@ -31,9 +31,9 @@ docker-compose -f confluence-compose.yml up -d
 run [bitbucket-compose.yml](/bitbucket-compose.yml)
 
 ```bash
-docker-compose -f confluence-compose.yml up -d
+docker-compose -f bitbucket-compose.yml up -d
 ```
-> Use `http://<ip>:8090`
+> Use `http://<ip>:7990`
 
 ### Bamboo Server
 
